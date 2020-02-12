@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1781" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:55 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1781" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:55 IST">
+      <class name="tests.unit.UnitTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.unit.UnitTest@553f17c]" name="setUp" is-config="true" duration-ms="98" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetValidateRequest()[pri:0, instance:tests.unit.UnitTest@553f17c]" name="testGetValidateRequest" duration-ms="10" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetValidateRequest -->
+        <test-method status="PASS" signature="testGetValidateRequestInvalid()[pri:0, instance:tests.unit.UnitTest@553f17c]" name="testGetValidateRequestInvalid" duration-ms="0" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetValidateRequestInvalid -->
+        <test-method status="PASS" signature="testGet_returnsNotNull()[pri:0, instance:tests.unit.UnitTest@553f17c]" name="testGet_returnsNotNull" duration-ms="0" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_returnsNotNull -->
+        <test-method status="PASS" signature="testGet_returnsNull()[pri:0, instance:tests.unit.UnitTest@553f17c]" name="testGet_returnsNull" duration-ms="1" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_returnsNull -->
+      </class> <!-- tests.unit.UnitTest -->
+      <class name="tests.api.ApiTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.api.ApiTest@4f7d0008]" name="init" is-config="true" duration-ms="236" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="restAssured_TestPostRequest()[pri:0, instance:tests.api.ApiTest@4f7d0008]" name="restAssured_TestPostRequest" duration-ms="888" started-at="2020-02-12T16:26:53 IST" finished-at="2020-02-12T16:26:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAssured_TestPostRequest -->
+        <test-method status="PASS" signature="testGetRequest_ValidInputEntityShouldNotBeNull()[pri:0, instance:tests.api.ApiTest@4f7d0008]" name="testGetRequest_ValidInputEntityShouldNotBeNull" duration-ms="195" started-at="2020-02-12T16:26:54 IST" finished-at="2020-02-12T16:26:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRequest_ValidInputEntityShouldNotBeNull -->
+        <test-method status="PASS" signature="testGet_InvalidInput()[pri:0, instance:tests.api.ApiTest@4f7d0008]" name="testGet_InvalidInput" duration-ms="74" started-at="2020-02-12T16:26:54 IST" finished-at="2020-02-12T16:26:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_InvalidInput -->
+        <test-method status="PASS" signature="testListNearest_ShouldBeNotNull()[pri:0, instance:tests.api.ApiTest@4f7d0008]" name="testListNearest_ShouldBeNotNull" duration-ms="93" started-at="2020-02-12T16:26:55 IST" finished-at="2020-02-12T16:26:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListNearest_ShouldBeNotNull -->
+        <test-method status="PASS" signature="testValidRequest_InValidInput()[pri:0, instance:tests.api.ApiTest@4f7d0008]" name="testValidRequest_InValidInput" duration-ms="85" started-at="2020-02-12T16:26:55 IST" finished-at="2020-02-12T16:26:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidRequest_InValidInput -->
+        <test-method status="PASS" signature="testValidRequest_ValidInput()[pri:0, instance:tests.api.ApiTest@4f7d0008]" name="testValidRequest_ValidInput" duration-ms="80" started-at="2020-02-12T16:26:55 IST" finished-at="2020-02-12T16:26:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidRequest_ValidInput -->
+      </class> <!-- tests.api.ApiTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
